@@ -1,0 +1,12 @@
+--Funcion map
+--toma una función y una lista y aplica esa función a cada 
+--elemento de esa lista, produciendo una nueva lista.
+--map :: (a -> b) -> [a] -> [b]
+
+--Potencia de 2 y su resultado
+ map (potencia 2)[3] ->[8]     
+
+--MCD de 4 y 8 y su resultado
+map (mcd 4)[8] ->[4]
+
+Ejercicios 13 y 14 del pràctico
